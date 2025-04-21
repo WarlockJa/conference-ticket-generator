@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub]()
-- Live Site URL: [Vercel]()
+- Solution URL: [GitHub](https://github.com/WarlockJa/conference-ticket-generator)
+- Live Site URL: [Vercel](https://conference-ticket-generator-silk-kappa.vercel.app/)
 
 ## My process
 

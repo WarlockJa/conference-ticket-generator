@@ -25,8 +25,11 @@ export default function TicketComplete({
       {/* user photo block */}
       <div className="absolute bottom-[4cqw] left-[4cqw] flex items-center gap-[3cqw]">
         <div className="aspect-square w-[14cqw] overflow-hidden rounded-2xl">
-          <img src={URL.createObjectURL(avatar)} alt={fullname} />
-          {/* <img src={"/images/image-avatar.jpg"} alt={fullname} /> */}
+          <img
+            src={URL.createObjectURL(avatar)}
+            alt={fullname}
+            className="h-full object-contain"
+          />
         </div>
         <div className="flex flex-col">
           <h2 className="text-[5.5cqw] font-semibold">{fullname}</h2>
