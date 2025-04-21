@@ -71,10 +71,7 @@ export default function TicketForm({
   });
   // using form data to display selected avatar image
   const imageData = useMemo(
-    () =>
-      form.getValues("avatar")
-        ? URL.createObjectURL(form.getValues("avatar"))
-        : undefined,
+    () => (avatarFormData ? URL.createObjectURL(avatarFormData) : undefined),
     [avatarFormData],
   );
 
